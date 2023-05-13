@@ -6,7 +6,7 @@
         },
         {
             "route": "/login",
-            "redirect": "/.auth/login/aad?post_login_redirect_uri=https://zealous-grass-0ea7c0c03.2.azurestaticapps.net/authenticated/"
+            "redirect": "/.auth/login/aad?post_login_redirect_uri=https://proud-tree-00ffc2c03.3.azurestaticapps.net/authenticated/"
         },
         {
             "route": "/logout",
@@ -25,7 +25,7 @@
             "azureActiveDirectory": {
                 "userDetailsClaim": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",
                 "registration": {
-                    "openIdIssuer": "https://login.microsoftonline.com/36001789-d8f8-4340-9ff8-0aba265a7715",
+                    "openIdIssuer": "https://login.microsoftonline.com/6fafb374-8df1-44da-9bc8-9b174edc67ea",
                     "clientIdSettingName": "AZURE_CLIENT_ID",
                     "clientSecretSettingName": "AZURE_CLIENT_SECRET"
                 }
