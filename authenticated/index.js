@@ -9,6 +9,6 @@ async function getUserInfo() {
     const payload = await response.json();
     const { clientPrincipal } = payload;
     return clientPrincipal;
-  }
+  };
   
   console.log(await getUserInfo());
