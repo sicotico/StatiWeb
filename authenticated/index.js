@@ -7,13 +7,13 @@ signOutBtn.addEventListener('click', () => {
 
 const dataBtn = document.getElementById('data');
 
-signOutBtn.addEventListener('click', () => {
-    async function getUserInfo() {
-        const response = await fetch('/.auth/me');
-        const payload = await response.json();
+data.addEventListener('click', () => {
+    function getUserInfo() {
+        const response = fetch('/.auth/me');
+        const payload = response.json();
         const { clientPrincipal } = payload;
         return clientPrincipal;
       }
       
-      console.log(await getUserInfo());
+      console.log(getUserInfo());
 });
