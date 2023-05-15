@@ -28,7 +28,7 @@ p {
    cursor: pointer;
 }
 
-#signOut{
+#signOut #Datos{
     background-image: linear-gradient(to right, #fff 0%, #f7f3f3  51%, #fff  100%);
     color: #6441A5;
 }
